@@ -1,0 +1,51 @@
+@import "../../Style/variable.scss";
+
+.chartBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100%;
+    gap: 20px;
+    .boxInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 3;
+        .title{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            span{
+                font-weight: 500;
+                // font-size: max( 1vw , 12px);
+            }
+        }
+        h1{
+            font-size: max(25px ,20px);
+        }
+    }
+    .boxchart{
+        flex: 2; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: end;
+        .cart{
+            width: 100%;
+            height: 100%;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            .parsentage{
+                font-size: 20px;
+                font-weight: bold;
+                color: rgb(3, 156, 3);
+            }
+            .duration{
+                font-size: 14px;
+                color: #a9a8a8;
+            }
+        }
+    }
+}

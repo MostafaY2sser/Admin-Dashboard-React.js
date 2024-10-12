@@ -1,0 +1,45 @@
+@import "../../Style/variable.scss" ;
+
+.topBox{
+    padding: 7px;
+    h1{
+        font-size: max(2.1vw , 20px);
+        font-weight: 700;
+    }
+    .list{
+        margin-top: 25px;
+        .listItem{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding-left: 10px;
+            &:not(:last-child){
+                margin-bottom: 30px;
+            }
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .info{
+                flex: 1;
+                span{
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                    font-weight: 500;
+                }
+                p{
+                    font-size: 11px;
+                    color: $soft-color ;
+                }
+            }
+            .amount{
+                font-weight: 500;
+            }
+        }
+    }
+
+
+
+}

@@ -1,0 +1,66 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px;
+    img{
+        cursor: pointer;
+    }
+    .navLeft{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .navRight{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .notification{
+            position: relative;
+            margin:  0 10px 0 5px  ;
+            span{
+                position: absolute;
+                top: -10px;
+                right: -10px;
+                background-color: red;
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            .me{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
